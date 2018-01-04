@@ -30,9 +30,9 @@ var BloomFall = function(id, initConfig)
         minSpeed   : 0.5,
         maxSpeed   : 1.5,
         deepth     : 5,
-        minSize    : 0.1, //%
-        maxSize    : 0.3, //%
-        bloomCount : 500,
+        minSize    : 0.3, //%
+        maxSize    : 0.5, //%
+        bloomCount : 600,
         color      : 120 //hsl color
     };
 
@@ -112,9 +112,6 @@ var BloomFall = function(id, initConfig)
         var base = (width + height) / 2 / 100;
         minSize  = base * config.minSize;
         maxSize  = base * config.maxSize;
-
-        console.log(minSize);
-        console.log(maxSize);
 
         canvas.width  = width;
         canvas.height = height;

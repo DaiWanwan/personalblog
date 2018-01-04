@@ -3805,7 +3805,7 @@ body {
   display: block;
 }
 body {
-  background: url(http://5b0988e595225.cdn.sohucs.com/images/20170830/ba0e3136eb3b44f8ad770c8319e4920c.jpeg) no-repeat fixed;
+  background: url(../img/backgroud.jpg) no-repeat fixed;
   background-size: cover;
   background-attachment: fixed;
   overflow-x: hidden;
@@ -3846,6 +3846,15 @@ body {
 }
 p {
   margin: 0;
+}
+#loading {
+  width: 100%;
+  height: 100%;
+  border-radius: 3px;
+  background: #ffffff url(../img/745.gif) no-repeat 50% 50%;
+  position: fixed;
+  top: 0;
+  z-index: 999;
 }
 #wrap {
   width: 100%;

@@ -77,6 +77,8 @@ main {
                     margin-left: 2em ;
                     font-size: 1.1em ;
                     line-height: 1.5em ;
+                    list-style-type: none;
+
                 }
                 h4{
                     font-size: 18px ;
@@ -125,16 +127,25 @@ main {
     }
     .post{
         margin: 30px;
+        @media (max-width: 768px) {
+            margin: 30px 15px;
+        }
         button{
             font-size: 1.25em;
             border-radius: 10px;
         }
         .prev{
             margin-left: 4em;
+            @media (max-width: 768px) {
+                margin-left: 1em;
+            }
         }
         .next{
             float: right;
             margin-right: 4em;
+            @media (max-width: 768px) {
+                margin-right: 1em;
+            }
         }
     }
 }

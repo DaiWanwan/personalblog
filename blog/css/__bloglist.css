@@ -3805,7 +3805,7 @@ body {
   display: block;
 }
 body {
-  background: url(http://5b0988e595225.cdn.sohucs.com/images/20170830/ba0e3136eb3b44f8ad770c8319e4920c.jpeg) no-repeat fixed;
+  background: url(../img/backgroud.jpg) no-repeat fixed;
   background-size: cover;
   background-attachment: fixed;
   overflow-x: hidden;
@@ -3913,6 +3913,7 @@ main .back-1 .back-2 .p-section ul {
   margin-left: 2em ;
   font-size: 1.1em ;
   line-height: 1.5em ;
+  list-style-type: none;
 }
 main .back-1 .back-2 .p-section h4 {
   font-size: 18px ;
@@ -3956,6 +3957,11 @@ main .back-1 .back-2 .gap-line {
 main .post {
   margin: 30px;
 }
+@media (max-width: 768px) {
+  main .post {
+    margin: 30px 15px;
+  }
+}
 main .post button {
   font-size: 1.25em;
   border-radius: 10px;
@@ -3963,9 +3969,19 @@ main .post button {
 main .post .prev {
   margin-left: 4em;
 }
+@media (max-width: 768px) {
+  main .post .prev {
+    margin-left: 1em;
+  }
+}
 main .post .next {
   float: right;
   margin-right: 4em;
+}
+@media (max-width: 768px) {
+  main .post .next {
+    margin-right: 1em;
+  }
 }
 .return-top {
   width: 50px;

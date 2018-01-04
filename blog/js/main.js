@@ -108,7 +108,7 @@ $(document).ready(function() {
 
     //    小树生长
     var drawtree = function (ctx,startx,starty,length,angle,depth,branchWidth){
-        console.log("aa");
+
         var rand=Math.random,
             n_length,n_angle,n_depth,maxbranch=4,
             endx,endy,maxangle=2 * Math.PI / 4;
